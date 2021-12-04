@@ -1,0 +1,23 @@
+            if (window['ct'] && typeof window['ct'] === 'function') {
+                window['ct']('create_session', { sessionId: 1200730696, siteId: 21008, modId: '0da1fff9', setCookie: true, endSessionTime: 1638639916, domain: 'invitro.ru', setCtCookie: '1500000000058341058', setLkCookie: null, denialTime: 15, phones: {"70830":{"subPoolName":"","phoneId":"232307","phoneNumber":"","phoneCode":"","phoneBody":""}} });
+            } else {
+              var xmlHttp = new XMLHttpRequest();
+              xmlHttp.open( "GET", 'https://mod.calltouch.ru/set_attrs_by_get.php?siteId=21008&sessionId=1200730696&attrs={"clientError_NO_CT_CREATE_SESSION": 1}', true );
+              xmlHttp.send( null );
+            }
+            
+window.ctw = {};
+window.ctw.clientFormConfig = {}
+window.ctw.clientFormConfig.getClientFormsSettingsUrl = "//mod.calltouch.ru/callback_widget_user_form_find.php";
+window.ctw.clientFormConfig.sendClientFormsRequestUrl = "//mod.calltouch.ru/callback_request_user_form_create.php";
+(function (targetWindow, nameSpace, params){
+(()=>{var e={9713:e=>{e.exports=function(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}},693:(e,t,n)=>{var r=n(9713);e.exports=function(e){for(var t=1;t<arguments.length;t++){var n=null!=arguments[t]?arguments[t]:{},o=Object.keys(n);"function"==typeof Object.getOwnPropertySymbols&&(o=o.concat(Object.getOwnPropertySymbols(n).filter((function(e){return Object.getOwnPropertyDescriptor(n,e).enumerable})))),o.forEach((function(t){r(e,t,n[t])}))}return e}}},t={};function n(r){var o=t[r];if(void 0!==o)return o.exports;var a=t[r]={exports:{}};return e[r](a,a.exports,n),a.exports}n.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return n.d(t,{a:t}),t},n.d=(e,t)=>{for(var r in t)n.o(t,r)&&!n.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},n.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{"use strict";var e=n(693),t=n.n(e);function r(e,n,r,o){try{var a=Boolean(window.event&&window.event.target&&"A"===window.event.target.nodeName),s=Boolean(window.event&&(window.event.target&&"submit"===window.event.target.type||"submit"===window.event.type)),i=function(){var e;if(e||"undefined"==typeof XMLHttpRequest)try{e=new ActiveXObject("Msxml2.XMLHTTP")}catch(t){try{e=new ActiveXObject("Microsoft.XMLHTTP")}catch(t){e=!1}}else e=new XMLHttpRequest;return e}(),c=n?"POST":"GET";i.open(c,e,!a&&!s&&!o),a||s||o||(i.timeout=6e4),i.setRequestHeader("Content-type","application/json"),i.onreadystatechange=function(){if(4===i.readyState&&r)if(200===i.status){var e=function(e){var t;try{t=JSON.parse(e)}catch(e){}return t}(i.response);e?e.data?r(!0,t()({},e.data)):e.error?r(!1,t()({},e.error)):r(!1,{type:"unknown_error",message:"Unknown JSON format",details:{}}):r(!1,{type:"unknown_error",message:"JSON parse error",details:{}})}else 0===i.status?r(!1,{type:"unknown_error",message:"Request timeout exceeded or connection reset",details:{}}):r(!1,{type:"unknown_error",message:"Unexpected HTTP code: ".concat(i.statusText),details:{}})},i.send(n)}catch(e){r&&r(!1,{type:"unknown_error",message:"Unexpected js exception",details:{}})}}!function(e,t,n){var o=e||window,a=t||"ctw";o[a]||(o[a]={});var s=o[a].clientFormConfig||{},i=s.getClientFormsSettingsUrl,c=s.sendClientFormsRequestUrl;o[a].getRouteKeyData=function(e,t){var o=1e6*Math.random(),a="".concat(i,"?siteId=").concat(n.siteId,"&routeKey=").concat(e,"&pageUrl=").concat(n.pageUrl,"&sessionId=").concat(n.sessionId);r("".concat(a,"&rand=").concat(Math.floor(o)),null,t)},o[a].createRequest=function(e,t,o,a){var s=arguments.length>4&&void 0!==arguments[4]?arguments[4]:null,i=arguments.length>5&&void 0!==arguments[5]?arguments[5]:[],u=arguments.length>6&&void 0!==arguments[6]?arguments[6]:null,d=arguments.length>7&&void 0!==arguments[7]&&arguments[7],l=1e6*Math.random(),p={siteId:n.siteId,sessionId:n.sessionId,workMode:1,pageUrl:n.pageUrl,tags:i,phone:t,routeKey:e,fields:o,scheduleTime:s,unitId:u};r("".concat(c,"?rand=").concat(Math.floor(l)),JSON.stringify(p),a,d)}}(targetWindow,nameSpace,params)})()})();
+})(window, "ctw", {"siteId":21008,"sessionId":1200730696,"pageUrl":"https:\/\/www.invitro.ru\/results\/validate\/?key=1:MTc1ODkyNjQ2OjE5NzYwNjEwOjE2NDYyNTI4MDg6YzdkMGQ3ZWI5MTIyMDQxMWViMWU3ZTgyZWQyYjZhNjEzMmVlYzFjNGJlZTI1NmJlN2ZiMTRjZDk0NDFjMDA4Ng==&fileName=175892646_196018796_2"})
+
+
+        var call_value = '1200730696';
+    var call_value_0da1fff9 = call_value;
+    if(window.onSessionCallValue) {
+        onSessionCallValue('1200730696', '');
+    }
+        
